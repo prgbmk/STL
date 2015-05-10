@@ -7,9 +7,21 @@
 //
 
 #include <iostream>
+#include <vector>
+#include "myheader.h"
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    vector<int> vec;
+    
+    vec.push_back(10);
+    vec.push_back(20);
+    vec.push_back(30);
+    vec.push_back(40);
+    vec.push_back(50);
+    
+    print(vec);
+    
+    
     return 0;
 }
